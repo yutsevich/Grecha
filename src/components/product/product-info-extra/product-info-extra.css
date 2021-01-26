@@ -1,0 +1,29 @@
+.product-info-extra-container > div {
+    position       : relative;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.product-info-extra-container > div > div {
+    position      : relative;
+    display       : flex;
+    flex-direction: column;
+    margin        : 20px 0 0 0;
+}
+
+.product-info-extra-buy {
+    height       : 40px;
+    line-height  : 40px;
+    width        : 150px;
+    border       : 0;
+    border-radius: 10px;
+    font-size    : 16px;
+    user-select  : none;
+    color        : #fff;
+    background   : #12A1AA;
+}
+
+.product-info-extra-buy:active  {
+    opacity: 0.7;
+}

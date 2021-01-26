@@ -1,0 +1,35 @@
+.product-info-container {
+    position  : relative;
+    display   : flex;
+    align-self: center;
+    margin    : 10px 0;
+}
+
+.product-info-container > div {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.product-info-img {
+    height: 130px;
+    width : auto;
+}
+
+.product-info-name {
+    color          : #2C2C2C;
+    text-align     : left;
+    /* margin         : 0 10px; */
+    max-width      : 40%;
+    font-size      : 20px;
+    font-weight    : 600;
+    text-decoration: dotted;
+    text-overflow  : ellipsis;
+    overflow       : hidden;
+}
+
+.product-info-price {
+    color      : #000;
+    font-size  : 30px;
+    font-weight: 700;
+}   

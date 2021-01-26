@@ -1,0 +1,33 @@
+.search-box-container {
+    position     : relative;
+    display      : flex;
+    height       : 40px;
+    align-self   : center;
+    border-radius: 10px;
+    overflow     : hidden;
+    width        : 100%;
+}
+
+.search-box-container * {
+    font-size: 16px;
+}
+
+.search-box-container > img {
+    position  : absolute;
+    align-self: center;
+    left: 10px;
+}
+
+.search-box-field {
+    border: 0;
+    width : 100%;
+    padding: 0 0 0 40px;
+}
+
+.search-box-button {
+    border          : 0;
+    background-color: #12A1AA;
+    color           : #fff;
+    font-weight     : 500;
+    min-width       : 100px;
+}

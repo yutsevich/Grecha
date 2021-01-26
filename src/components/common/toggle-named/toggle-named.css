@@ -1,0 +1,16 @@
+.toggle-named-container {
+    position        : relative;
+    background-color: white;
+    border-bottom   : 1px solid #E5E5E5;
+}
+
+.toggle-named-container > div {
+    display        : flex;
+    justify-content: space-between;
+    font-size      : 18px;
+    margin         : 15px 0;
+}
+
+.toggle-named-name {
+    text-align: left;
+}

@@ -1,0 +1,15 @@
+.property-box-container {
+    position   : relative;
+    display    : flex;
+    font-size  : 18px;
+    line-height: 24px;
+}
+
+.property-box-name {
+    font-weight: 600;
+    text-align : left;
+}
+
+.property-box-value {
+    text-align: left;
+}
