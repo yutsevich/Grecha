@@ -1,8 +1,9 @@
 package com.grecha.demo.util;
 
+import com.grecha.demo.exceptions.WrongURIFormatException;
+
 import java.util.HashMap;
 import java.util.Map;
-import org.grecha.exceptions.WrongURIFormatException;
 
 /**
  * parser for URI with following format: /sort?param=name(order=desc),login(order=asc)
